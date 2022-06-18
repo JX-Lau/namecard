@@ -9,14 +9,8 @@ import SwiftUI
 
 struct JingXian: View {
     @State private var nameRotation = Angle(degrees: 30)
-    @State private var rabbitTextRotation = Angle(degrees: 10)
-    @State private var rabbitImageScale: CGFloat = 1
-    
     @State private var videoButtonRotation = Angle(degrees: 360)
-
-    
     @State private var offset: CGFloat = -50
-    
     @State private var phase: CGFloat = 0
     
     @Environment(\.openURL) var openURL
